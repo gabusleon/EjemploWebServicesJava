@@ -39,14 +39,20 @@
 			<version>1.0.2</version>
 		</dependency>
 
-		<dependency>
-			<groupId>javax.json.bind</groupId>
-			<artifactId>javax.json.bind-api</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
+		<!-- JERSEY dependencies -->
+		<dependency>		
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-client</artifactId>
+			<version>2.27</version>
+		</dependency>		
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+			<version>2.27</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.inject</groupId>
+			<artifactId>jersey-hk2</artifactId>
 			<version>2.27</version>
 		</dependency>
 	</dependencies>
